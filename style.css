@@ -1,0 +1,41 @@
+:root{
+    --header-text-background-color:#bcb9c3;
+    --background-color:#434793: #c34fc1;
+    --header-background-color:#36304a;
+    --rows-even-background-color:#f5f5f5;
+    --table-background-color:#ffffff;
+    --box-border-color:#bfb7e5;
+}
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+#grad {
+    
+    background-image: linear-gradient( to right , #434793,#c34fc1);
+
+  }
+.container{
+    width: 100%;
+  }
+.total-table{
+    width: 70%;
+    margin: 70px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    border-collapse: collapse;
+    background-color: var(--table-background-color);
+}
+.total-table ,th,td{
+    padding: 6px;
+    text-align: center;
+}
+th{
+    background-color: var(--header-background-color);
+    color: var(--header-text-background-color);
+  }
+  tr:nth-child(even){
+    background-color: var(--rows-even-background-color);
+  }
+
